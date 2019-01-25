@@ -8,11 +8,13 @@
 </head>
 <body>
   <div id="app">
-    <p v-once>
+    <p>
       {{message}}
     </p>
-    <button v-on:click="clickHandler">
-    </button>
+    <p v-html="message">
+      {{message}}
+    </p>
+
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
