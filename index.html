@@ -9,21 +9,8 @@
 <body>
   <div id="app">
     <p>
-      {{message}}
+      {{price|numberFormat}}
     </p>
-    <p v-html="message">
-      {{message}}
-    </p>
-    <p>
-      {{message.split('')}}
-    </p>
-    <p>
-      {{message.split('').reverse()}}
-    </p>
-    <p>
-      {{message.split('').reverse().join('')}}
-    </P>
-
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
