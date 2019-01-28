@@ -8,3 +8,10 @@ var app = new Vue({
     price: 2980000000
   }
 })
+
+var appp = new Vue({
+  el: '#appp',
+  data: {
+    price: 2980000000
+  }
+})
